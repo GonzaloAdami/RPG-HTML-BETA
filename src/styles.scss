@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    overflow: hidden;
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 7.9vh -10vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bossHp{
+    width: 50%;
+    height: 1vh;
+    border-radius: 200px;
+    position: relative;
+    left: 10%;
+    top: -45vh;
+    
+
+}
+.bossHp::-webkit-progress-bar {
+background-color: rgb(220, 220, 220);
+border-radius: 200px;
+}
+
+.bossHp::-webkit-progress-value {
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 3, 3),
+    rgb(255, 17, 0)
+  );
+  border-radius: 200px;
+}
+.avatarHP::-webkit-progress-bar {
+  background-color: rgb(220, 220, 220);
+  border-radius: none;
+  }
+
+  .avatarHP::-webkit-progress-value {
+    background-image: linear-gradient(
+      to right,
+      rgb(198, 80, 16),
+      rgb(229, 255, 0)
+    );
+    border-radius: none;
+  }
+  .avatarMP::-webkit-progress-bar {
+    background-color: rgb(220, 220, 220);
+    border-radius: none;
+    }
+  
+    .avatarMP::-webkit-progress-value {
+      background-image: linear-gradient(
+        to right,
+        rgb(16, 49, 198),
+        rgb(0, 187, 255)
+      );
+      border-radius: none;
+    }

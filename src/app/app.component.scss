@@ -1,0 +1,134 @@
+
+
+
+.heroe{
+    display: flex;
+    width: 10vw;
+    height: auto;
+    position: relative;
+    margin: 0 13vw;
+   bottom: -60vh;
+}
+    
+
+.containerStats{ 
+   
+    position: relative;
+    bottom: 31vh;
+    left: 9vw;
+}
+.icon{
+    width: 5vw;
+    height: auto;
+    position: absolute;
+    top: -53vh;
+    left: 6vw;
+}
+.nameBoss{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 1.3vw;
+    top: -46vh;
+    left: 10vw;
+    z-index: 1500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 #00000080, 1px -1px 0 #00000080, -1px 1px 0 #00000080, 1px 1px 0 #00000080;
+}
+.avatarHP{
+    height: 1.3vw;
+    z-index: 1000;
+    position: relative;
+    margin: 1vh 0;
+    left: 1vw;
+
+}
+.avatarMP{
+    height: 1.3vw;
+    z-index: 1000;
+    position: relative;
+    top: 85%;
+    left: 1vw;
+
+}
+.valueAvatarMP{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 3.5vw;
+    z-index: 1500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 #00000080, 1px -1px 0 #00000080, -1px 1px 0 #00000080, 1px 1px 0 #00000080;
+}
+.valueAvatarHP{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 3.8vh;
+    left: 3.5vw;
+    z-index: 1500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: -1px -1px 0 #00000080, 1px -1px 0 #00000080, -1px 1px 0 #00000080, 1px 1px 0 #00000080;
+}
+
+.enemy{
+    display: flex;
+    width: auto;
+    height: 60vh;
+    position: relative;
+    margin: 0 10vw;
+    bottom: -2vh;
+    right: -40%;
+    z-index: -200;
+}
+.containerOptions {
+    display: flex;
+    float: left;
+    position: relative;
+    margin: 0;
+    z-index: 2000;
+    /* Ajusta el ancho del contenedor para acomodar el texto uno al lado del otro */
+    width: auto;
+    height: 20vh;
+    bottom: 4vw;
+    left: 3.5vw;
+    
+  }
+  
+  /* Elimina los márgenes predeterminados de los elementos li */
+  .containerOptions li {
+    margin: 0;
+  }
+  button {
+    display: inline-block;
+    background: linear-gradient(to right, rgb(226, 222, 220), rgb(154, 154, 154));
+    list-style: none;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 1vw;
+    border: none;
+    font-size: 1.5vw;
+    
+    
+  }
+
+  
+  @keyframes alternate {
+    10% {
+      text-shadow: white 1px 0 0, white -1px 0 0, white 0 -1px 0, white 0 1px 0;
+    }
+    80% {
+      text-shadow: white -1px 0 0, white 1px 0 0, white 0 1px 0, white 0 -1px 0;
+    }
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, rgb(176, 59, 0), rgb(255, 3, 3));
+    list-style: none;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
